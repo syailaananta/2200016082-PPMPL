@@ -4,7 +4,7 @@ const { kurang, bagi, tambah, kali } = require('./math');
 //latihan 1
 describe('Pengujian Fungsi pengurangan dan pembagian yang menguji negative case', function() {
  
-  it('seharusnya mengembalikan hasil yang benar saat mengurangkan angka negatif', function() {
+  it('seharusnya mengembalikan -2 saat mengurangkan angka negatif', function() {
     expect(kurang(-5, -3)).to.equal(-2);
 });
   it('seharusnya mengembalikan -2 saat membagi -20 / 10', function() {
